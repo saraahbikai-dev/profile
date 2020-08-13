@@ -1,0 +1,158 @@
+h1 {
+    color: #fff6cc ;
+    background-color: black;
+    font-family: 'Recursive', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 30px;
+    padding: 6cm;
+
+
+}
+
+.img-circle {
+  border-radius: 70%;
+    
+}
+p {
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 10px;
+  
+
+
+}
+
+.texto{
+font-family: monospace;
+font-size: 17px;
+letter-spacing: normal;
+
+}
+}
+h2 {
+    color:#fffde3 ;
+    background-color: black;
+    font-family:'EB Garamond', serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 3cm;
+    
+    
+
+}
+
+
+
+h3 {
+  color:#fffde3 ;
+  background-color: black;
+  text-align: center;
+  padding: 3cm;
+  box-shadow: 8px 8px 3px #c1c1c1;
+  border-radius: 20px;
+ 
+}
+
+
+.logo {
+  border-radius: 50%;
+}
+    
+
+
+.btn-green {
+  color:#fffde3 ;
+  border-radius: 50%;
+  background-color: aquamarine;
+  padding:30px;
+  text-align: center;
+  border-bottom: black;
+ 
+}
+
+
+
+
+}
+a {
+    color: burlywood;
+    display: inline-block;
+    padding: 0px 20px;
+
+
+
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+
+.container h1 {
+    border-radius: 10px;
+    box-shadow: 8px 8px 3px #c1c1c1;
+    margin: 5px;
+}
+
+
+.description h2 {
+  color: bisque;
+  font-family: fantasy;
+    border-radius: 10px;
+    box-shadow: 8px 8px 3px #c1c1c1;
+    margin: 5px;
+}
+
+.Job h2 {
+  color:#fffde3 ;
+    background-color: black;
+    font-family:'EB Garamond', serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3cm;
+    
+}
+
+.list-inline {
+   display: inline-block;
+   list-style: none; 
+   padding-left: 0px; 
+   text-align: center;
+   
+  }
+
+.list-inline li {
+  display: inline;
+  
+}
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+ }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+.img-circle {
+  width: 100px;
+}
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
